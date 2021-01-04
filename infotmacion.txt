@@ -1,0 +1,34 @@
+aca se aloga algunos datos adicionales de la aplicasion 
+
+iniciamos el package.json simepre entodo programa es necesario incluir este paquete 
+npm init -y
+instalamos nodemon:
+npm i nodemon -D
+dentro de dicho archivo package.json creamos un scripts:
+"start": "npx nodemon index.js"
+-----------------------------------------------------------
+instalacion de modulos
+*Express (para configurar nuestro servidor)
+*Express-handlebars (sera nuestro motor de plantillas)
+*Express-session (para crear seccione dentro de nustro servidor)
+*Method-override (para extender la funcionalidad de los formularios para eniar metodos delete o paquete)
+*mongoose (para unir express con una base de datos, mongodb)
+*passport (para autenticarme)
+*passport-local
+*bcryptjs (para incriptar un deteminado texto en este caso la contraseña de los usuarios)
+*connect-flash (para enviar mensajes entre multiples vistas, como una alerta)
+
+se instala de la siguiente manera:
+npm i express express-handlebars express-session method-override mongoose passport passport-local bcryptjs
+--------------------------------------------------------------------------
+estructura de mi aplicacion
+
+carpeta src  //esta carpeta tendra todo el codio tanto las vistas del frontend como las del servidor
+index.js //es el que arancara toda nuestra aplicasion
+database.js //es para tener una conexion a la base de datos
+carpeta views //contrenda todas las vistas html que se enviaran al navegador, donde usaremos el motor de plantillas
+carpeta routes //para crear las url o las lustas a nuestro servidor
+carpeta public //para incertar todos los archivos estaticos como imagenes archivos css, javaScript
+carpeta models //definimos como van a lusir los datos que se insertaran en la base de datos
+carpeta helpers // para crear funciones que en algun momento pueda usaremos
+carpetas config //como estan configurados ciertos modulos
