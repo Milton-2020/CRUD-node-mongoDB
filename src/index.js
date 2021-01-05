@@ -10,7 +10,7 @@ require('./database'); //aca inicializo la base de datos
 //settings
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views')); //para definir la ruta views la propiedad __dirname pasamos la uvicasion acrtual
-app.set('.hbs', exphbs({
+app.engine('.hbs', exphbs({
     defaultLayout: 'main',
     layoutsDir: path.join(app.get('views'), 'layouts'),
     partialsDir: path.join(app.get('views'), 'partials'),
