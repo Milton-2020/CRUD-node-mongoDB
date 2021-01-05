@@ -1,31 +1,34 @@
 {
-  "name": "CRUD-node-mongoDB",
-  "version": "1.0.0",
-  "description": "CRUD con node, mondoDB y express",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Milton-2020/CRUD-node-mongoDB.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Milton-2020/CRUD-node-mongoDB/issues"
-  },
-  "homepage": "https://github.com/Milton-2020/CRUD-node-mongoDB#readme",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "connect-flash": "^0.1.1",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "express-session": "^1.17.1",
-    "method-override": "^3.0.0",
-    "mongoose": "^5.11.9",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0"
-  }
+    "name": "CRUD-node-mongoDB",
+    "version": "1.0.0",
+    "description": "CRUD con node, mondoDB y express",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Milton-2020/CRUD-node-mongoDB.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Milton-2020/CRUD-node-mongoDB/issues"
+    },
+    "homepage": "https://github.com/Milton-2020/CRUD-node-mongoDB#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "connect-flash": "^0.1.1",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "express-session": "^1.17.1",
+        "method-override": "^3.0.0",
+        "mongoose": "^5.11.9",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
 }

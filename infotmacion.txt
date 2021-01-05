@@ -5,7 +5,11 @@ npm init -y
 instalamos nodemon:
 npm i nodemon -D
 dentro de dicho archivo package.json creamos un scripts:
-"start": "npx nodemon index.js"
+"dev": "nodemon src/index"
+primero definimos el nombre del script luego la ruta del index que da inicio a nuestro sitio
+//para ejecutar el escript desde la consola se hace de la siquiente manera
+
+npm run dev 
 -----------------------------------------------------------
 instalacion de modulos
 *Express (para configurar nuestro servidor)

@@ -1,0 +1,23 @@
+cama se muestra como instalar mongoDB
+
+primero devemos de ir a esta ruta:
+https://www.mongodb.com/
+
+luego en la pagina buscamos la pestaña Docs y luego server
+
+To download MongoDB 4.4, go to the MongoDB Download Center //independiente de la vercion
+
+luego cliceamos sobre MongoDB Community server
+
+luego en dowload
+
+-------------------------------------------------------
+una ves instalado vamos a iniciarlo para eyo asemos lo siguiente:
+mongod
+//si al ejecutarlo desde una terminal nos dice que mongod no se reconose como comado tendremos que agregarlo al path del sistema
+
+para agregarlo al path asemos lo siguiente:
+
+C:\Program Files\MongoDB\Server\4.4\bin  //buscamos una ruta similar a esta la copiamos 
+
+y luego la agregamos al path del sitema
